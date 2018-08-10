@@ -1,0 +1,72 @@
+html,
+body{
+    background-image: url("back1.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120% 120%;
+}
+div.img{
+    width: 150px;
+    height: 80px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+p{
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+    font-size: 2.8em;
+    direction: ltr;
+
+    white-space: normal;
+    line-height: 125%;
+}
+p.a{
+    font-size: 3.4em;
+    text-shadow: 0.25em 0.25em 0.5em dodgerblue;
+}
+p.b{
+    text-shadow: 0.25em 0.25em 0.5em #00bf00;
+    color: red;
+}
+p.c{
+    text-shadow: 0.25em 0.25em 0.5em #2aabd2;
+    color: coral;
+}
+p.d{
+    text-indent: 1cm;
+    font-size: 1.2em;
+    color: #00ccff;
+}
+p.h1{
+    font-size: 3em;
+}
+p span{
+    /*text-indent: 0.5em;*/
+}
+
+h3{
+    font-family: VNI-Meli;
+    font-size: 3.2em;
+    direction: ltr;
+    text-indent: 1cm;
+    white-space: normal;
+    color: green;
+}
+h4{
+    text-indent: 1cm;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1.6em;
+}
+
+a:link{
+    color: #00ccff;
+}
+
+a:visited{
+    color: purple;
+}
+th{
+    color: blue;
+    font-size: 1.5em;
+    align-content: center;
+}
